@@ -1,0 +1,32 @@
+
+		XSPEC version: 12.12.1
+	Build Date/Time: Thu Nov 10 20:40:43 2022
+
+XSPEC12> data ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi 
+***Warning: Detected response matrix energy bin value = 0 (or neg).
+     XSPEC will instead use small finite value (response file will not be altered).
+
+1 spectrum  in use
+ 
+Spectral Data File: ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi  Spectrum 1
+Net count rate (cts/s) for Spectrum:1  6.944e-01 +/- 4.023e-02 (99.3 % total)
+ Assigned to Data Group 1 and Plot Group 1
+  Noticed Channels:  1-655
+  Telescope: SWIFT Instrument: XRT  Channel Type: PI
+  Exposure Time: 432 sec
+ Using fit statistic: chi
+ Using Background File                ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pcback.pi
+  Background Exposure Time: 432 sec
+ Using Response (RMF) File            ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc.rmf for Source 1
+ Using Auxiliary Response (ARF) File  ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc.arf
+
+XSPEC12> ignore bad 
+
+ignore:   641 channels ignored from  source number 1
+XSPEC12> ignore **-0.3
+    30 channels (1-30) ignored in spectrum #     1
+
+XSPEC12> ignore 10.0-** 
+    25 channels (631-655) ignored in spectrum #     1
+
+XSPEC12> cpd /xw 

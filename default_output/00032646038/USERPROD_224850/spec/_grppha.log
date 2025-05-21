@@ -1,0 +1,42 @@
+Please enter PHA filename[../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pcsource.pi]          ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wtsource.pi
+Please enter output filename[!../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi]          !../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wt_chi2_grp.pi
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - SWIFT           Mission/Satellite name
+  INSTRUME  - XRT             Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 1121.2          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 2.97688E-04     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - none            Associated redistribution matrix file
+  ANCRFILE  - none            Associated ancillary response file
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. of detector channels in dataset
+  PHAVERSN  - 1.2.0           OGIP FITS version number
+  STAT_ERR  - FALSE           Statistical Error
+  SYS_ERR   - FALSE           Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+GRPPHA[chkey backfile ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pcback.pi]          chkey backfile ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wtback.pi
+GRPPHA[exit]          chkey respfile ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wt.rmf
+GRPPHA[chkey respfile ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wt.rmf]          chkey ANCRFILE ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wt.arf
+GRPPHA[chkey ANCRFILE ../default_output/00032646038/USERPROD_224850/spec/Obs_00032646038wt.arf]         reset all
+GRPPHA[reset all]          bad 0-29
+GRPPHA[bad 0-29]          group min 20
+GRPPHA[group min 20]          exit
+ ... written the PHA data Extension
+ ...... exiting, changes written to file : ../default_output/00032646038/USERP
+ ** grppha 3.1.0 completed successfully

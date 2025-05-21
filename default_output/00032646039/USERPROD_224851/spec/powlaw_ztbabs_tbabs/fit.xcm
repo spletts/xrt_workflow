@@ -1,0 +1,17 @@
+statistic chi
+data 1:1 ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi
+ignore 1:1-30,45-655
+
+method leven 10 0.01
+abund wilm
+xsect bcmc
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  TBabs*zTBabs*powerlaw
+          0.157     -0.001          0          0     100000      1e+06
+    2.97959e-07      0.001          0          0     100000      1e+06
+           0.45      -0.01     -0.999     -0.999         10         10
+        1.86734       0.01         -3         -2          9         10
+      0.0195926       0.01          0          0      1e+20      1e+24
+bayes off

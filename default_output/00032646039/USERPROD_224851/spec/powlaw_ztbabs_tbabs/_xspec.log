@@ -1,0 +1,284 @@
+
+		XSPEC version: 12.12.1
+	Build Date/Time: Thu Nov 10 20:40:43 2022
+
+XSPEC12> data ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi
+***Warning: Detected response matrix energy bin value = 0 (or neg).
+     XSPEC will instead use small finite value (response file will not be altered).
+
+1 spectrum  in use
+ 
+Spectral Data File: ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc_chi2_grp.pi  Spectrum 1
+Net count rate (cts/s) for Spectrum:1  6.944e-01 +/- 4.023e-02 (99.3 % total)
+ Assigned to Data Group 1 and Plot Group 1
+  Noticed Channels:  1-655
+  Telescope: SWIFT Instrument: XRT  Channel Type: PI
+  Exposure Time: 432 sec
+ Using fit statistic: chi
+ Using Background File                ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pcback.pi
+  Background Exposure Time: 432 sec
+ Using Response (RMF) File            ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc.rmf for Source 1
+ Using Auxiliary Response (ARF) File  ../default_output/00032646039/USERPROD_224851/spec/Obs_00032646039pc.arf
+
+XSPEC12> ignore bad 
+
+ignore:   641 channels ignored from  source number 1
+XSPEC12> ignore **-0.3
+    30 channels (1-30) ignored in spectrum #     1
+
+XSPEC12> ignore 10.0-** 
+    25 channels (631-655) ignored in spectrum #     1
+
+XSPEC12> cpd /xw 
+XSPEC12> setplot energy keV 
+XSPEC12> abund wilm 
+ Solar Abundance Vector set to wilm:  Wilms, J., Allen, A. & McCray, R. ApJ 542 914 (2000) (abundances are set to zero for those elements not included in the paper).
+XSPEC12> model tbabs*ztbabs(powerlaw) 
+
+Input parameter value, delta, min, bot, top, and max values for ...
+              1      0.001(      0.01)          0          0     100000      1e+06
+1:TBabs:nH> 0.157 
+              1      0.001(      0.01)          0          0     100000      1e+06
+2:zTBabs:nH>
+              0      -0.01(      0.01)     -0.999     -0.999         10         10
+3:zTBabs:Redshift> 0.45
+              1       0.01(      0.01)         -3         -2          9         10
+4:powerlaw:PhoIndex> 
+              1       0.01(      0.01)          0          0      1e+20      1e+24
+5:powerlaw:norm> 
+
+========================================================================
+Model TBabs<1>*zTBabs<2>*powerlaw<3> Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+   1    1   TBabs      nH         10^22    0.157000     +/-  0.0          
+   2    2   zTBabs     nH         10^22    1.00000      +/-  0.0          
+   3    2   zTBabs     Redshift            0.450000     frozen
+   4    3   powerlaw   PhoIndex            1.00000      +/-  0.0          
+   5    3   powerlaw   norm                1.00000      +/-  0.0          
+________________________________________________________________________
+
+
+Fit statistic  : Chi-Squared              1.273391e+06     using 14 bins.
+
+Test statistic : Chi-Squared              1.273391e+06     using 14 bins.
+ Null hypothesis probability of 0.000000e+00 with 10 degrees of freedom
+ Current data and model not fit yet.
+XSPEC12> freeze 1 
+
+Fit statistic  : Chi-Squared              1.273391e+06     using 14 bins.
+
+Test statistic : Chi-Squared              1.273391e+06     using 14 bins.
+ Null hypothesis probability of 0.000000e+00 with 11 degrees of freedom
+ Current data and model not fit yet.
+XSPEC12> freeze 3 
+  parameter 3 is already frozen.
+XSPEC12> fit
+                                   Parameters
+Chi-Squared  |beta|/N    Lvl          2:nH    4:PhoIndex        5:norm
+74.5659      12.6581      -1     0.0204144       1.22307    0.00923591
+27.061       1891.82      -2     0.0100853       1.82189     0.0158334
+14.4015      954.44       -3    0.00402583       1.86740     0.0194531
+14.1829      207.531      -4    0.00199422       1.86635     0.0195739
+14.0954      174.867      -5   5.98935e-05       1.86677     0.0195820
+14.0808      168.923      -6   2.09949e-06       1.86729     0.0195917
+14.0796      167.414      -7   2.97959e-07       1.86734     0.0195926
+========================================
+ Variances and Principal Axes
+                 2        4        5  
+ 1.5295E-06| -0.0130  -0.0064   0.9999  
+ 3.7457E-03|  0.8997  -0.4363   0.0089  
+ 5.0795E-02|  0.4362   0.8998   0.0115  
+----------------------------------------
+
+====================================
+  Covariance Matrix
+        1           2           3   
+   1.270e-02   1.847e-02   2.837e-04
+   1.847e-02   4.184e-02   5.089e-04
+   2.837e-04   5.089e-04   8.487e-06
+------------------------------------
+
+========================================================================
+Model TBabs<1>*zTBabs<2>*powerlaw<3> Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+   1    1   TBabs      nH         10^22    0.157000     frozen
+   2    2   zTBabs     nH         10^22    2.97959E-07  +/-  0.112686     
+   3    2   zTBabs     Redshift            0.450000     frozen
+   4    3   powerlaw   PhoIndex            1.86734      +/-  0.204538     
+   5    3   powerlaw   norm                1.95926E-02  +/-  2.91330E-03  
+________________________________________________________________________
+
+
+Fit statistic  : Chi-Squared                   14.08     using 14 bins.
+
+Test statistic : Chi-Squared                   14.08     using 14 bins.
+ Null hypothesis probability of 2.29e-01 with 11 degrees of freedom
+XSPEC12> save all ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/fit 
+../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/fit.xcm exists. Replace? (y/n) 
+XSPEC12> error 1. 2 
+ Parameter   Confidence Range (1)
+                                   Parameters
+Chi-Squared  |beta|/N    Lvl          2:nH    4:PhoIndex        5:norm
+13.1786      1.57269       1   7.66541e-08       1.95378     0.0209222
+========================================
+ Variances and Principal Axes
+                 2        4        5  
+ 1.6121E-06| -0.0154  -0.0059   0.9999  
+ 3.1037E-03|  0.9107  -0.4130   0.0116  
+ 4.8390E-02|  0.4129   0.9107   0.0117  
+----------------------------------------
+
+====================================
+  Covariance Matrix
+        1           2           3   
+   1.082e-02   1.703e-02   2.666e-04
+   1.703e-02   4.066e-02   5.009e-04
+   2.666e-04   5.009e-04   8.658e-06
+------------------------------------
+
+========================================================================
+Model TBabs<1>*zTBabs<2>*powerlaw<3> Source No.: 1   Active/On
+Model Model Component  Parameter  Unit     Value
+ par  comp
+   1    1   TBabs      nH         10^22    0.157000     frozen
+   2    2   zTBabs     nH         10^22    7.66541E-08  +/-  0.104029     
+   3    2   zTBabs     Redshift            0.450000     frozen
+   4    3   powerlaw   PhoIndex            1.95378      +/-  0.201654     
+   5    3   powerlaw   norm                2.09222E-02  +/-  2.94243E-03  
+________________________________________________________________________
+
+
+Fit statistic  : Chi-Squared                   13.18     using 14 bins.
+
+Test statistic : Chi-Squared                   13.18     using 14 bins.
+ Null hypothesis probability of 2.82e-01 with 11 degrees of freedom
+     2            0    0.0674524    (-2.20746e-08,0.0674524)
+XSPEC12> error 1. 4-5
+ Parameter   Confidence Range (1)
+     4      1.83307      2.10405    (-0.12072,0.150267)
+     5    0.0195189    0.0230178    (-0.00140332,0.00209551)
+XSPEC12> flux 2 10 err
+Parameter distribution is derived from fit covariance matrix.
+ Model Flux 0.0087507 photons (5.7237e-11 ergs/cm^2/s) range (2.0000 - 10.000 keV)
+     Error range  0.007581 - 0.01049    (4.852e-11 - 7.142e-11)  (68.00% confidence)
+XSPEC12> set parFlux [tcloutr flux] 
+5.723671458e-11 4.851517647e-11 7.141746658e-11  0.008750675717 0.007580705102 0.01048661222 
+XSPEC12> set parZnH [tcloutr param 2] 
+8.42999e-09 0.001 0 0 100000 1e+06
+XSPEC12> set parZnHErr [tcloutr error 2] 
+0 0.06745242158  FFFTFFTFF
+XSPEC12> set parIndex [tcloutr param 4]
+1.95379 0.01 -3 -2 9 10
+XSPEC12> set parIndexErr [tcloutr error 4]
+1.83306616 2.104052902  FFFFFFFFF
+XSPEC12> set parNorm [tcloutr param 5]
+0.0209222 0.01 0 0 1e+20 1e+24
+XSPEC12> set parNormErr [tcloutr error 5]
+0.01951892639 0.02301775504  FFFFFFFFF
+XSPEC12> set rateEtc [tcloutr rate all] 
+0.662780387 0.03928433684 0.6321815497 99.42458678
+XSPEC12> set cRate [lindex $rateEtc 0] 
+0.662780387
+XSPEC12> set cRateErr [lindex $rateEtc 1] 
+0.03928433684
+XSPEC12> set cRateLow [expr {$cRate - $cRateErr}] 
+0.62349605016
+XSPEC12> set cRateHigh [expr {$cRate + $cRateErr}] 
+0.70206472384
+XSPEC12> set paramTable [open ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat w+] 
+file7
+XSPEC12> puts $paramTable "[lindex name 0] [lindex param 0] [lindex param_low 0] [lindex param_high 0] [lindex error_string 0]" 
+XSPEC12> puts $paramTable "[lindex ztbabs_nh 0] [lindex $parZnH 0] [lindex $parZnHErr 0] [lindex $parZnHErr 1] [lindex $parZnHErr 2]"
+XSPEC12> puts $paramTable "[lindex PhoIndex 0] [lindex $parIndex 0] [lindex $parIndexErr 0] [lindex $parIndexErr 1] [lindex $parIndexErr 2]" 
+XSPEC12> puts $paramTable "[lindex norm 0] [lindex $parNorm 0] [lindex $parNormErr 0] [lindex $parNormErr 1] [lindex $parNormErr 2]" 
+XSPEC12> puts $paramTable "[lindex flux 0] [lindex $parFlux 3] [lindex $parFlux 4] [lindex $parFlux 5] [lindex 0 0]"
+XSPEC12> puts $paramTable "[lindex cRate 0] [lindex $cRate 0] [lindex $cRateLow 0] [lindex $cRateHigh 0] [lindex 0 0]"
+XSPEC12> close $paramTable
+XSPEC12> set nullProb [tcloutr nullhyp] 
+0.2818109299
+XSPEC12> set chiSq [tcloutr stat] 
+13.17862801
+XSPEC12> set dof [tcloutr dof] 
+11 14
+XSPEC12> set statTable [open ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/stat_tbl.dat w+]
+file7
+XSPEC12> puts $statTable "[lindex chi_squared 0] [lindex deg_freedom 0] [lindex null_hyp_probability 0]" 
+XSPEC12> puts $statTable "[lindex $chiSq 0] [lindex $dof 0] [lindex $nullProb 0]"
+XSPEC12> close $statTable
+XSPEC12>
+XSPEC12> plot res 
+XSPEC12> setplot command rescale 0.3 10 
+1
+XSPEC12> iplot
+PLT>  hard ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/resid.png/png 
+PLT>  clear
+PLT>  q
+XSPEC12>
+XSPEC12> plot eemodel eeufspec
+XSPEC12> setplot command rescale 0.3 10 
+2
+XSPEC12> plot eemodel eeufspec 
+XSPEC12> set xDataEnergy [tcloutr plot eeufspec x] 
+0.4200000167   0.6150000095   0.775000006   0.9099999964   1.004999965   1.094999969   1.189999998   1.334999979   1.494999945   1.649999976   1.909999967   2.339999914   2.844999909   3.610000014   
+XSPEC12> set xDataEnergyErr [tcloutr plot eeufspec xerr] 
+0.1200000048   0.07499998808   0.08500000834   0.04999998212   0.04499998689   0.04500001669   0.05000001192   0.09499996901   0.06499999762   0.09000003338   0.1699999571   0.2599999905   0.2450000048   0.5200001001   
+XSPEC12> set yDataEFlux [tcloutr plot eeufspec y] 
+0.003405713169   0.01084258539   0.0101798951   0.01681502882   0.0204407986   0.02071504029   0.02234532226   0.01245580607   0.02275214093   0.02148529489   0.01815541984   0.02038648338   0.03337572942   0.02163336036   
+XSPEC12> set yDataEFluxErr [tcloutr plot eeufspec yerr] 
+0.0007524666885   0.002373364044   0.002231756946   0.003784458012   0.004502189499   0.00465462742   0.004771060002   0.002807927973   0.005129043645   0.004835566878   0.004005053728   0.004558556265   0.007317021953   0.004845209867   
+XSPEC12> set modelDataEFlux [tcloutr plot eeufspec model] 
+0.003284263796   0.008831249577   0.01264885385   0.01467546703   0.01596038459   0.01694271478   0.01776466303   0.01860720404   0.01934697938   0.01987902164   0.02045524053   0.02108425513   0.02154598179   0.02195961354   
+XSPEC12> set unbinDataTable [open ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/spec_default_bin.dat w+] 
+file7
+XSPEC12> set len [llength $xDataEnergy] 
+14
+XSPEC12> for {set idx 0} {$idx < $len} {incr idx} {puts $unbinDataTable "[lindex $xDataEnergy $idx] [lindex $xDataEnergyErr $idx] [lindex $yDataEFlux $idx] [lindex $yDataEFluxErr $idx] [lindex $modelDataEFlux $idx]" } 
+XSPEC12> close $unbinDataTable
+XSPEC12>
+XSPEC12> cpd /xw
+XSPEC12> plot eemodel eeufspec 
+XSPEC12> setplot command rescale 0.3 10
+3
+XSPEC12> setplot rebin 100000 5 
+XSPEC12> plot eemodel eeufspec
+XSPEC12> iplot
+PLT>  hard ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/eflux.png/png 
+PLT>  clear
+PLT>  q
+XSPEC12> cpd /xw
+XSPEC12> plot ufspec 
+XSPEC12> setplot command rescale 0.3 10
+4
+XSPEC12> setplot rebin 100000 5
+XSPEC12> plot ufspec
+XSPEC12> iplot
+PLT>  hard ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/phflux.png/png
+PLT>  clear
+PLT>  q
+XSPEC12>
+XSPEC12> set xDataEnergy [tcloutr plot eeufspec x] 
+0.6749999821   1.394999981   2.935000062   
+XSPEC12> set xDataEnergyErr [tcloutr plot eeufspec xerr]
+0.3749999702   0.3450000286   1.195000052   
+XSPEC12> set yDataEFlux [tcloutr plot eeufspec y] 
+0.006844070518   0.01897647962   0.02223850404   
+XSPEC12> set yDataEFluxErr [tcloutr plot eeufspec yerr] 
+0.0006759558054   0.001889747684   0.002466543988   
+XSPEC12> set modelDataEFlux [tcloutr plot eeufspec model] 
+0.006403789461   0.01845547404   0.02120574595   
+XSPEC12> set datatable [open ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/spec_binned.dat w+]
+file7
+XSPEC12> set len [llength $xDataEnergy] 
+3
+XSPEC12> for {set idx 0} {$idx < $len} {incr idx} {puts $datatable "[lindex $xDataEnergy $idx] [lindex $xDataEnergyErr $idx] [lindex $yDataEFlux $idx] [lindex $yDataEFluxErr $idx] [lindex $modelDataEFlux $idx]" }
+XSPEC12> close $datatable
+XSPEC12>
+XSPEC12> model clear
+XSPEC12> cpd none
+XSPEC12> quit
+ XSPEC: quit
+ %PGPLOT, PGPAGE: no graphics device has been selected
+ %PGPLOT, PGPAGE: no graphics device has been selected
+ %PGPLOT, PGPAGE: no graphics device has been selected

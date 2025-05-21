@@ -1,0 +1,183 @@
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - overplot_all_obsids_for_model - Error with []. Expected one file from glob search but there are many or 0. Skipping this file.
+WARNING - overplot_all_obsids_for_model - Error with []. Expected one file from glob search but there are many or 0. Skipping this file.
+WARNING - _parse_legend_args - No handles with labels found to put in legend.
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - _parse_legend_args - No handles with labels found to put in legend.
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - _parse_legend_args - No handles with labels found to put in legend.
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with []. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
+INFO - lightcurve_tbl - Wrote ../default_output/lightcurve.csv
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - lightcurve_plt - Wrote ../default_output/lightcurve_phflux.png
+WARNING - _showwarning - ErfaWarning: ERFA function "dtf2d" yielded 2 of "dubious year (Note 6)"
+WARNING - _showwarning - ErfaWarning: ERFA function "utctai" yielded 2 of "dubious year (Note 3)"
+WARNING - _showwarning - ErfaWarning: ERFA function "taiutc" yielded 2 of "dubious year (Note 4)"
+INFO - overplot_all_obsids_for_model - Wrote ../default_output/spec_powlaw_tbabs_all_obsids.png
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646038/USERPROD_224850/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646038.png
+ERROR - overplot_all_models_for_obsid - Error with [] attempting to glob ../default_output/00032646039/USERPROD*/spec/logpar_tbabs/spec_default_bin.dat for spec_default_bin.dat. Expected one file from glob search but there are many or 0. Skipping this.
+WARNING - check_fit_success_using_error_string - There is an issue in the calculation of the parameter(s) error: ['ztbabs_nh'] in ../default_output/00032646039/USERPROD_224851/spec/powlaw_ztbabs_tbabs/param_tbl.dat.
+WARNING - check_fit_success_using_error_string - HOWEVER, the parameter may still have a reported best fit value and bounds. Consider refitting or treat these values carefully?
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: hit hard lower limit
+ERROR - check_fit_success_using_error_string - 	For parameter ztbabs_nh, the fit failed because: search failed in -ve direction
+INFO - overplot_all_models_for_obsid - Wrote ../default_output/spec_all_models_00032646039.png
