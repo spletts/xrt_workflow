@@ -1,5 +1,7 @@
 # xrt_workflow
-This repository describes the workflow for analysing Swift-XRT data for *point sources*. I have never analysed an extended source. The analysis is done per observation ID (ObsID) and produces spectra for each ObsID. Integral fluxes (for a lightcurve) are computed using XSpec's `flux` command. If you wish to stack the data of multiple ObsIDs, I believe this is done with XSpec (Step 6 below).
+This repository describes the workflow for analysing Swift-XRT data for *point sources*. I have never analysed an extended source. The analysis is done per observation ID (ObsID) and produces spectra for each ObsID. Integral fluxes (for a lightcurve) are computed using XSpec's `flux` command. 
+
+The [validation](src/validation/README.md) folder compares the output of this repo with a paper. Start here before proceeding.
 
 You will need the [dependencies](#requirements) installed.
 This workflow uses Python and Bash and the two are clunkily linked together with one [config file](src/default_config.cfg). 

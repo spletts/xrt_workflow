@@ -1,0 +1,4 @@
+default_output/trash
+src/__pycache__/
+.idea/
+validation/output/trash/

@@ -1,0 +1,42 @@
+Please enter PHA filename[output/USERPROD_233124/spec/specwtsource.pi]          output/USERPROD_233124/spec/specwtsource.pi
+Please enter output filename[!output/USERPROD_233124/spec/spewt_chi2_grp.pi]          !output/USERPROD_233124/spec/specwt_chi2_grp.pi
+ 
+  -------------------------
+  MANDATORY KEYWORDS/VALUES
+  -------------------------
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+  EXTNAME   - SPECTRUM        Name of this BINTABLE
+  TELESCOP  - SWIFT           Mission/Satellite name
+  INSTRUME  - XRT             Instrument/Detector
+  FILTER    - NONE            Instrument filter in use
+  EXPOSURE  - 55848.          Integration time (in secs) of PHA data
+  AREASCAL  - 1.0000          Area scaling factor
+  BACKSCAL  - 2.79649E-04     Background scaling factor
+  BACKFILE  - none            Associated background file
+  CORRSCAL  - 1.0000          Correlation scaling factor
+  CORRFILE  - none            Associated correlation file
+  RESPFILE  - none            Associated redistribution matrix file
+  ANCRFILE  - none            Associated ancillary response file
+  POISSERR  - TRUE            Whether Poissonian errors apply
+  CHANTYPE  - PI              Whether channels have been corrected
+  TLMIN1    - 0               First legal Detector channel
+  DETCHANS  - 1024            No. of legal detector channels
+  NCHAN     - 1024            No. of detector channels in dataset
+  PHAVERSN  - 1.2.0           OGIP FITS version number
+  STAT_ERR  - FALSE           Statistical Error
+  SYS_ERR   - FALSE           Fractional Systematic Error
+  QUALITY   - TRUE            Quality Flag
+  GROUPING  - FALSE           Grouping Flag
+  --------------------------------------------------------------------
+  --------------------------------------------------------------------
+GRPPHA[chkey backfile output/USERPROD_233124/spec/specwtback.pi]          chkey backfile output/USERPROD_233124/spec/specwtback.pi
+GRPPHA[exit]          chkey respfile output/USERPROD_233124/spec/specwt.rmf
+GRPPHA[chkey respfile output/USERPROD_233124/spec/specwt.rmf]          chkey ANCRFILE output/USERPROD_233124/spec/specwt.arf
+GRPPHA[chkey ANCRFILE output/USERPROD_233124/spec/specwt.arf]         reset all
+GRPPHA[reset all]          bad 0-29
+GRPPHA[bad 0-29]          group min 20
+GRPPHA[group min 20]          exit
+ ... written the PHA data Extension
+ ...... exiting, changes written to file : output/USERPROD_233124/spec/specwt_
+ ** grppha 3.1.0 completed successfully
