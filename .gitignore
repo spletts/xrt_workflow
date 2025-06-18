@@ -1,4 +1,5 @@
 default_output/trash
 src/__pycache__/
+*__pycache__*
 .idea/
-validation/output/trash/
+src/validation/output/trash/
